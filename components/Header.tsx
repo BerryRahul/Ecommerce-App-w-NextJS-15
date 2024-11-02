@@ -4,8 +4,6 @@ import { ClerkLoaded, SignInButton, UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Form from "next/form";
 import { PackageIcon, TrolleyIcon } from "@sanity/icons";
-import { Sign } from "crypto";
-import { buttonVariants } from "./ui/button";
 
 function Header() {
   const { user } = useUser();
